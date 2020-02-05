@@ -1,3 +1,42 @@
-<html>
-My first page
+<!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Rand Barclay</h2>
+        <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+      </section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et leo tellus. Curabitur eu congue sapien. Sed nulla nisl, suscipit ut libero at, ornare placerat magna. Aenean a urna blandit, auctor massa et, egestas tellus. Quisque cursus in nibh id tempus. Duis sagittis efficitur vestibulum. In non rhoncus lectus. Sed gravida mauris vel nisi consectetur, in egestas nisl tincidunt. Donec a ultricies augue. Ut volutpat auctor quam, eu consequat ipsum vulputate et. Phasellus vehicula ut nisl a convallis. Curabitur fermentum maximus tortor, fringilla commodo ligula auctor sed.</a></p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">randbarclay@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/randbarclay">randbarclay</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
+
+</body>
+
 </html>
